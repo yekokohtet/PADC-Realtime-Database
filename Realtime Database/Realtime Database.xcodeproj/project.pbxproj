@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3437A0252358C04200486ED3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3437A0242358C04200486ED3 /* AppDelegate.swift */; };
+		3437A0272358C04200486ED3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3437A0262358C04200486ED3 /* SceneDelegate.swift */; };
+		3437A0292358C04200486ED3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3437A0282358C04200486ED3 /* ViewController.swift */; };
+		3437A02C2358C04200486ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3437A02A2358C04200486ED3 /* Main.storyboard */; };
+		3437A02E2358C04500486ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3437A02D2358C04500486ED3 /* Assets.xcassets */; };
+		3437A0312358C04500486ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3437A02F2358C04500486ED3 /* LaunchScreen.storyboard */; };
+		34F0A34E236274BB008B2DE5 /* GroceryItemVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0A34D236274BB008B2DE5 /* GroceryItemVO.swift */; };
+		34F0A35023627517008B2DE5 /* UserVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0A34F23627517008B2DE5 /* UserVO.swift */; };
+		34F0A35423627680008B2DE5 /* GroceryListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0A35223627680008B2DE5 /* GroceryListItemTableViewCell.swift */; };
+		34F0A35523627680008B2DE5 /* GroceryListItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34F0A35323627680008B2DE5 /* GroceryListItemTableViewCell.xib */; };
+		34F0A358236277DB008B2DE5 /* OnlineUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0A356236277DB008B2DE5 /* OnlineUserTableViewCell.swift */; };
+		34F0A359236277DB008B2DE5 /* OnlineUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34F0A357236277DB008B2DE5 /* OnlineUserTableViewCell.xib */; };
+		34F0A35C23627909008B2DE5 /* GroceryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0A35B23627909008B2DE5 /* GroceryListViewController.swift */; };
+		34F0A35E2362791D008B2DE5 /* OnlineUserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0A35D2362791D008B2DE5 /* OnlineUserListViewController.swift */; };
+		B5D575DC6430E76C2182FDF8 /* Pods_Realtime_Database.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE81A37A9BE2F1811CED4FC /* Pods_Realtime_Database.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3437A0212358C04200486ED3 /* Realtime Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Realtime Database.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3437A0242358C04200486ED3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3437A0262358C04200486ED3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3437A0282358C04200486ED3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3437A02B2358C04200486ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3437A02D2358C04500486ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3437A0302358C04500486ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3437A0322358C04500486ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34748FE8236405B7005EE3FD /* Realtime Database.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Realtime Database.entitlements"; sourceTree = "<group>"; };
+		34F0A34D236274BB008B2DE5 /* GroceryItemVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemVO.swift; sourceTree = "<group>"; };
+		34F0A34F23627517008B2DE5 /* UserVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVO.swift; sourceTree = "<group>"; };
+		34F0A35223627680008B2DE5 /* GroceryListItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListItemTableViewCell.swift; sourceTree = "<group>"; };
+		34F0A35323627680008B2DE5 /* GroceryListItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroceryListItemTableViewCell.xib; sourceTree = "<group>"; };
+		34F0A356236277DB008B2DE5 /* OnlineUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineUserTableViewCell.swift; sourceTree = "<group>"; };
+		34F0A357236277DB008B2DE5 /* OnlineUserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnlineUserTableViewCell.xib; sourceTree = "<group>"; };
+		34F0A35B23627909008B2DE5 /* GroceryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListViewController.swift; sourceTree = "<group>"; };
+		34F0A35D2362791D008B2DE5 /* OnlineUserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineUserListViewController.swift; sourceTree = "<group>"; };
+		9079F323DA286B65DC1E0DBC /* Pods-Realtime Database.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realtime Database.debug.xcconfig"; path = "Target Support Files/Pods-Realtime Database/Pods-Realtime Database.debug.xcconfig"; sourceTree = "<group>"; };
+		9EE81A37A9BE2F1811CED4FC /* Pods_Realtime_Database.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realtime_Database.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D960CDA5C3DFE8EE5F09A44D /* Pods-Realtime Database.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realtime Database.release.xcconfig"; path = "Target Support Files/Pods-Realtime Database/Pods-Realtime Database.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3437A01E2358C04200486ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D575DC6430E76C2182FDF8 /* Pods_Realtime_Database.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3437A0182358C04200486ED3 = {
+			isa = PBXGroup;
+			children = (
+				3437A0232358C04200486ED3 /* Realtime Database */,
+				3437A0222358C04200486ED3 /* Products */,
+				3B898500EF4AC52DB6703DAC /* Pods */,
+				ED4632E61B3ECFAE0D56E244 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3437A0222358C04200486ED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3437A0212358C04200486ED3 /* Realtime Database.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3437A0232358C04200486ED3 /* Realtime Database */ = {
+			isa = PBXGroup;
+			children = (
+				34748FE8236405B7005EE3FD /* Realtime Database.entitlements */,
+				34F0A34C2362749E008B2DE5 /* vos */,
+				34F0A35123627663008B2DE5 /* cells */,
+				34F0A35A236278D9008B2DE5 /* viewControllers */,
+				3437A0242358C04200486ED3 /* AppDelegate.swift */,
+				3437A0262358C04200486ED3 /* SceneDelegate.swift */,
+				3437A02A2358C04200486ED3 /* Main.storyboard */,
+				3437A02D2358C04500486ED3 /* Assets.xcassets */,
+				3437A02F2358C04500486ED3 /* LaunchScreen.storyboard */,
+				3437A0322358C04500486ED3 /* Info.plist */,
+			);
+			path = "Realtime Database";
+			sourceTree = "<group>";
+		};
+		34F0A34C2362749E008B2DE5 /* vos */ = {
+			isa = PBXGroup;
+			children = (
+				34F0A34D236274BB008B2DE5 /* GroceryItemVO.swift */,
+				34F0A34F23627517008B2DE5 /* UserVO.swift */,
+			);
+			path = vos;
+			sourceTree = "<group>";
+		};
+		34F0A35123627663008B2DE5 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				34F0A35223627680008B2DE5 /* GroceryListItemTableViewCell.swift */,
+				34F0A35323627680008B2DE5 /* GroceryListItemTableViewCell.xib */,
+				34F0A356236277DB008B2DE5 /* OnlineUserTableViewCell.swift */,
+				34F0A357236277DB008B2DE5 /* OnlineUserTableViewCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		34F0A35A236278D9008B2DE5 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3437A0282358C04200486ED3 /* ViewController.swift */,
+				34F0A35B23627909008B2DE5 /* GroceryListViewController.swift */,
+				34F0A35D2362791D008B2DE5 /* OnlineUserListViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		3B898500EF4AC52DB6703DAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9079F323DA286B65DC1E0DBC /* Pods-Realtime Database.debug.xcconfig */,
+				D960CDA5C3DFE8EE5F09A44D /* Pods-Realtime Database.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED4632E61B3ECFAE0D56E244 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EE81A37A9BE2F1811CED4FC /* Pods_Realtime_Database.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3437A0202358C04200486ED3 /* Realtime Database */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3437A0352358C04500486ED3 /* Build configuration list for PBXNativeTarget "Realtime Database" */;
+			buildPhases = (
+				429B16A54C12E7E7B7038088 /* [CP] Check Pods Manifest.lock */,
+				3437A01D2358C04200486ED3 /* Sources */,
+				3437A01E2358C04200486ED3 /* Frameworks */,
+				3437A01F2358C04200486ED3 /* Resources */,
+				73C7782F3E73B2BAE94ACE16 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Realtime Database";
+			productName = "Realtime Database";
+			productReference = 3437A0212358C04200486ED3 /* Realtime Database.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3437A0192358C04200486ED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Ye Ko Ko Htet";
+				TargetAttributes = {
+					3437A0202358C04200486ED3 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 3437A01C2358C04200486ED3 /* Build configuration list for PBXProject "Realtime Database" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3437A0182358C04200486ED3;
+			productRefGroup = 3437A0222358C04200486ED3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3437A0202358C04200486ED3 /* Realtime Database */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3437A01F2358C04200486ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3437A0312358C04500486ED3 /* LaunchScreen.storyboard in Resources */,
+				3437A02E2358C04500486ED3 /* Assets.xcassets in Resources */,
+				34F0A35523627680008B2DE5 /* GroceryListItemTableViewCell.xib in Resources */,
+				3437A02C2358C04200486ED3 /* Main.storyboard in Resources */,
+				34F0A359236277DB008B2DE5 /* OnlineUserTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		429B16A54C12E7E7B7038088 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Realtime Database-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73C7782F3E73B2BAE94ACE16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Realtime Database/Pods-Realtime Database-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Realtime Database/Pods-Realtime Database-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Realtime Database/Pods-Realtime Database-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3437A01D2358C04200486ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F0A35C23627909008B2DE5 /* GroceryListViewController.swift in Sources */,
+				3437A0292358C04200486ED3 /* ViewController.swift in Sources */,
+				34F0A35E2362791D008B2DE5 /* OnlineUserListViewController.swift in Sources */,
+				34F0A35023627517008B2DE5 /* UserVO.swift in Sources */,
+				34F0A358236277DB008B2DE5 /* OnlineUserTableViewCell.swift in Sources */,
+				3437A0252358C04200486ED3 /* AppDelegate.swift in Sources */,
+				34F0A34E236274BB008B2DE5 /* GroceryItemVO.swift in Sources */,
+				34F0A35423627680008B2DE5 /* GroceryListItemTableViewCell.swift in Sources */,
+				3437A0272358C04200486ED3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3437A02A2358C04200486ED3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3437A02B2358C04200486ED3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3437A02F2358C04500486ED3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3437A0302358C04500486ED3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3437A0332358C04500486ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3437A0342358C04500486ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3437A0362358C04500486ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9079F323DA286B65DC1E0DBC /* Pods-Realtime Database.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Realtime Database/Realtime Database.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64F6CM5Y8X;
+				INFOPLIST_FILE = "Realtime Database/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.padc.realtime.database;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3437A0372358C04500486ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D960CDA5C3DFE8EE5F09A44D /* Pods-Realtime Database.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Realtime Database/Realtime Database.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64F6CM5Y8X;
+				INFOPLIST_FILE = "Realtime Database/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.padc.realtime.database;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3437A01C2358C04200486ED3 /* Build configuration list for PBXProject "Realtime Database" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3437A0332358C04500486ED3 /* Debug */,
+				3437A0342358C04500486ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3437A0352358C04500486ED3 /* Build configuration list for PBXNativeTarget "Realtime Database" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3437A0362358C04500486ED3 /* Debug */,
+				3437A0372358C04500486ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3437A0192358C04200486ED3 /* Project object */;
+}
