@@ -1,0 +1,6 @@
+framework module Pods_Realtime_Database {
+  umbrella header "Pods-Realtime Database-umbrella.h"
+
+  export *
+  module * { export * }
+}
